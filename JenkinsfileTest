@@ -1,4 +1,15 @@
-#! /bin/bash
-
-version:' 6.1.0'
-services:
+pipeline{
+	agent any
+	stages{
+		stage('Testing'){
+			steps{
+				sh "./scripts/test.sh"
+			}
+		}
+		stage('Push Images'){
+			steps{
+				sh "./scripts/push_images.sh"
+			}
+		}
+	}
+}

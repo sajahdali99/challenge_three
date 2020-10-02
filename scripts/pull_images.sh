@@ -1,3 +1,3 @@
 #! /bin/bash
 
-sudo docker pull localhost:8082/flask-app-demo-2
+sudo docker pull localhost:8082/challenge_three

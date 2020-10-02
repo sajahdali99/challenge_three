@@ -1,3 +1,3 @@
 #! /bin/bash
 
-sudo docker build -t localhost:8082/flask-app-demo-2 .
+sudo docker build -t localhost:8082/challenge_three .
