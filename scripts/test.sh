@@ -1,4 +1,4 @@
 #! /bin/bash
 
-pip install -U pytest
+# run pytest to initiate testing
 pytest
