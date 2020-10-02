@@ -3,7 +3,7 @@ pipeline{
 	stages{
 		stage('Pull Images'){
 			steps{
-				sh "./scripts/test.sh"
+				sh "./scripts/pull_images.sh"
 			}
 		}
 		stage('Testing'){
