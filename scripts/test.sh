@@ -1,4 +1,4 @@
 #! /bin/bash
 
-sudo apt install python-pytest
+pip install -U pytest
 pytest
