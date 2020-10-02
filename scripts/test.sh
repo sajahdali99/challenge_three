@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # create a container for test environment
-sudo docker run -d -p 5000:5000 --name testing_pytest testing_pytest
+sudo docker run -d -p 5000:5000 --name pytest pytest
 
 # run pytest to initiate testing
 pytest
