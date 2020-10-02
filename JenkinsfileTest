@@ -1,6 +1,11 @@
 pipeline{
 	agent any
 	stages{
+		stage('Pull Images'){
+			steps{
+				sh "./scripts/test.sh"
+			}
+		}
 		stage('Testing'){
 			steps{
 				sh "./scripts/test.sh"
