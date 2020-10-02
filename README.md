@@ -17,6 +17,8 @@
   
 >I thought that this week's challenge might be the hardest yet because the week had felt quite heavy; I kept up with the tuturoials and understood the concepts we had discussed, but fallen behind with the afternoon tasks.  That made me feel I was was missing the meaning of what I was doing and just going through the motions.
 
+>But when I read the challenge itself it seemed fairly straightforward (like all the challenges so far, when they haven't been!)
+
 </p>
 </details>
 
