@@ -5,7 +5,6 @@ sudo docker run -d -p 5001:5001 --name pytest localhost:8082/challenge_three
 
 # run pytest to initiate testing
 pytest
-#python3 app.py
 
 # pull down container
 sudo docker rm -f pytest
