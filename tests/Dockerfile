@@ -1,10 +1,12 @@
-FROM python 3.7
+FROM python 3.6
 
 # not concerned about WORKDIR
 
-COPY . .
+# give container access to requirements file
+RUN pip3 install --no-cache-dir -r requirements.txt
 
-RUN pip install pytest
+COPY . .
+#RUN pip install pytest
 
 EXPOSE 5000
 
