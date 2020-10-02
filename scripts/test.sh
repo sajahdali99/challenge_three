@@ -9,4 +9,4 @@ sudo docker run -d -p 5000:5000 --name testing_pytest testing_pytest
 pytest
 
 # pull down container
-sudo docker rm -r testing_pytest
+sudo docker rm -f testing_pytest
