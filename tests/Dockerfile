@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 5000
 
-ENTRYPOINT ["python3", "test_main.py"]
+ENTRYPOINT ["python3", "app.py"]
