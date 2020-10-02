@@ -1,7 +1,7 @@
 #! /bin/bash
 
 # install pytest
-pip install -U pytest
+sudo apt pip install python-pytest
 
 # run pytest to initiate testing
 pytest
